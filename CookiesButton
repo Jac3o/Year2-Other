@@ -1,0 +1,11 @@
+def tick():
+	#This allows the cookies button to grey out the login button until it has been pressed
+	login_button.enable()
+	if cookiesbutton.value == 1:
+		login_button.enable()
+	else:
+		login_button.disable()
+	if cookiesbutton.value:
+
+
+cookiesbutton = CheckBox(app, text="Agree to Cookies", command =tick)

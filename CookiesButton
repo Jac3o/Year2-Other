@@ -6,6 +6,4 @@ def tick():
 	else:
 		login_button.disable()
 	if cookiesbutton.value:
-
-
-cookiesbutton = CheckBox(app, text="Agree to Cookies", command =tick)
+		info("COOKIES", "We use cookies to enhance your experience on our site. Cookies are small text files stored on your device that help us improve our services, personalize content, and analyze our traffic. By clicking Accept All Cookies, you consent to our use of cookies in accordance with our Cookie Policy.")
